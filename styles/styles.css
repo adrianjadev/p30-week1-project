@@ -68,6 +68,9 @@ body {
 .navbar ul a:hover {
   border-bottom: 0.2em solid #93B1A6;
 }
+.navbar .logo:hover {
+  border-bottom: none;
+}
 .navbar #logo-text {
   color: #ffffff;
 }

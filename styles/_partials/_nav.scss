@@ -35,6 +35,12 @@
         
     }
 
+    .logo {
+        &:hover {
+            border-bottom: none;
+        }
+    }
+
     #logo-text {
         color: $clr-white;
     }
