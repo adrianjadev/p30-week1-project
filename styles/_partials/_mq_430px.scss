@@ -36,8 +36,17 @@
             flex-direction: column;
             
         }
+
+        .company {
+            font-size: 1.2em;
+        }
+
         .company, .title, .employment {
             text-align: center;
+        }
+
+        .job-description {
+            font-size: $fz-secondary;
         }
     }
 

@@ -181,6 +181,9 @@ body {
   text-align: center;
 }
 
+#wrapper-footer {
+  margin-top: -1.5em;
+}
 #wrapper-footer #footer {
   font-size: 0.8em;
   color: red;
@@ -361,8 +364,14 @@ body {
     align-items: center;
     flex-direction: column;
   }
+  #wrapper-grid-experience .company {
+    font-size: 1.2em;
+  }
   #wrapper-grid-experience .company, #wrapper-grid-experience .title, #wrapper-grid-experience .employment {
     text-align: center;
+  }
+  #wrapper-grid-experience .job-description {
+    font-size: 0.8em;
   }
   .section-title {
     font-size: 1.4em;
