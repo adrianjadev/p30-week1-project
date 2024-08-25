@@ -14,11 +14,18 @@ $fz-primary: 1em;
 $fz-secondary: 0.8em;
 $fz-section-title: 1.5em;
 
-#hr-breaker {
+.hr-breaker {
     border: 0;
     height: 0.5em;
     background-color: $clr-secondary;
-    margin: 1em 0;
+    margin: 3.5em 0;
+}
+
+.hr-breaker-no-padding {
+    border: 0;
+    height: 0.6em;
+    background-color: $clr-secondary;
+    margin: 3.5em 0;
 }
 
 .section-title {
