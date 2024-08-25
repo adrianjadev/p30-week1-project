@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-background: #eceff1;
+    --clr-white: #ffffff;
+    --clr-primary: #183D3D;
+    --clr-gray: #263238;
+    --clr-border-bottom: #93B1A6;
+
+    --font-size: 16px;
+    --border-radius: 0.2em;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--font-size);
+    color: var(--clr-gray);
+    background-color: var(--clr-background);
+}
+
+/* For Nav section */
+
+.navbar {
+    width: 100%;
+    background-color: var(--clr-primary);
+    margin: 0;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 3em;
+}
+
+.navbar ul li {
+    padding-right: 1.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: var(--clr-white);
+}
+
+.navbar a:hover {
+    border-bottom: 0.2em solid var(--clr-border-bottom);
+}
+
+.logo_mark {
+    color: var(--clr-border-bottom);
+}
+
+.navbar ul li:first-child {
+    margin: auto;
+    color: var(--clr-white);
+    margin-left: 2em;
+}
+
+#wrapper-main {
+    margin: 2em;
+}
+
+.header {
+    text-align: center;
+}
+
+/* For About Section */
+
+#wrapper-about {
+    margin: 2em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+#wrapper-about h1{
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: -0.1em;
+}
+
+.ajdm_picture {
+    width: 25rem;
+    height: 35rem;
+    border-radius: 21%;
+}
+
+/* For Projects section */
+
+#wrapper-grid-projects {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+
+#wrapper-grid-projects .container{
+    background-color: var(--clr-white);
+    border-radius: var(--border-radius);
+    padding: 1em;
+    border-bottom: 0.5em solid var(--clr-primary);
+}
+
+#wrapper-grid-projects .container h2 {
+    text-align: center;
+}
+
+.proj_thumbnail {
+    max-width: 100%;
+}
+
+#hr-breaker {
+    border: 0;
+    height: 0.5em;
+    background-color: var(--clr-border-bottom);
+    margin: 1em 0;
+}
+
+.technologies li {
+    list-style-type: disc;
+    margin-left: 1.5em;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline var(--clr-primary);
+}
+
+/* For Skills section */
+
+#wrapper-skills {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#wrapper-skills .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1.4em;
+    padding: 0;
+}
+
+#wrapper-skills img {
+    height: 100px;
+    width: 100px;
+    
+    /* Other way to center an img or div inside of Grid */
+    place-self: center;
+}
+
+/* For Education section */
+
+#wrapper-grid-education .container {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+/* For Experiences */
+
+#wrapper-grid-experience .job-container {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-gap: 1em;
+}
+
+#wrapper-grid-experience .job-logo {
+    margin-top: 1.6em;
+}
+
+/* For Contact section */
+
+#wrapper-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#wrapper-contact #contact-table {
+    display: flex;
+    border: 1px solid #000;
+}
+
+#wrapper-contact #contact-table tr {
+    margin: 2em;
+}
+
+
+/* For Media queries */
+
+@media(max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .boxes .container {
+        display: block;
+        text-align: center;
+    }
+
+    .about_boxes .container {
+        display: block;
+        text-align: center;
+    }
+
+    .navbar .logo {
+        font-size: 12px;
+    }
+
+    .navbar a {
+        font-size: 0.8em;
+        margin: 0;
+        padding: 0;
+    }
+}
