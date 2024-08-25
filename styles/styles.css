@@ -149,14 +149,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-#wrapper-contact #contact-table {
-  display: flex;
-  border: 1px solid #183d3d tr;
-}
 #wrapper-contact #contact-table th {
   padding: 1em;
   color: red;
   text-align: left;
+}
+#wrapper-contact .btn-submit {
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {

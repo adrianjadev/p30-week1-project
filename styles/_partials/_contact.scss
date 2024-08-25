@@ -2,8 +2,6 @@
     @include flexCenter();
 
     #contact-table {
-        display: flex;
-        border: 1px solid $clr-primary
     
         tr {
         
@@ -14,5 +12,9 @@
             color: red;
             text-align: left;
         }
+    }
+
+    .btn-submit {
+        text-align: center;
     }
 }
