@@ -6,18 +6,17 @@
 
         ul {
             li {
-                font-size: 0.6em;
+                font-size: 0.7em;
                 padding-right: 1.2em;
             }
         }
 
         #logo-text {
-            font-size: 0.8em;
+            font-size: 1em;
         }
     }
 
     // About Section
-
     #wrapper-about {
 
         .column-1 {
@@ -40,6 +39,10 @@
         .company, .title, .employment {
             text-align: center;
         }
+    }
+
+    .section-title {
+        font-size: 1.4em;
     }
 
 }

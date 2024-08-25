@@ -29,9 +29,11 @@ body {
 }
 
 .navbar {
+  position: fixed;
   width: 100%;
   background-color: #183d3d;
   margin: 0;
+  top: 0;
 }
 .navbar ul {
   display: flex;
@@ -68,6 +70,7 @@ body {
 
 #wrapper-main {
   margin: 2em;
+  margin-top: 5em;
 }
 #wrapper-main .header {
   text-align: center;
@@ -134,6 +137,9 @@ body {
   grid-template-columns: 1fr 8fr;
   gap: 2em;
 }
+#wrapper-grid-education .container #school-logo img {
+  border-radius: 25%;
+}
 
 #wrapper-grid-experience .job-container {
   display: grid;
@@ -141,7 +147,10 @@ body {
   grid-gap: 1em;
 }
 #wrapper-grid-experience .job-logo {
-  margin-top: 1.6em;
+  margin-top: 1.5em;
+}
+#wrapper-grid-experience .job-logo img {
+  border-radius: 25%;
 }
 
 #wrapper-contact {
@@ -151,11 +160,23 @@ body {
 }
 #wrapper-contact #contact-table th {
   padding: 1em;
-  color: red;
+  color: #183d3d;
   text-align: left;
+}
+#wrapper-contact .btn-submit #submit-btn {
+  font-size: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9em;
+  color: #183d3d;
 }
 #wrapper-contact .btn-submit {
   text-align: center;
+}
+
+#wrapper-footer #footer {
+  font-size: 0.8em;
+  color: red;
 }
 
 @media screen and (max-width: 768px) {
@@ -316,11 +337,11 @@ body {
     width: 100%;
   }
   .navbar ul li {
-    font-size: 0.6em;
+    font-size: 0.7em;
     padding-right: 1.2em;
   }
   .navbar #logo-text {
-    font-size: 0.8em;
+    font-size: 1em;
   }
   #wrapper-about .column-1 #ajdm_picture {
     width: 18rem;
@@ -335,5 +356,8 @@ body {
   }
   #wrapper-grid-experience .company, #wrapper-grid-experience .title, #wrapper-grid-experience .employment {
     text-align: center;
+  }
+  .section-title {
+    font-size: 1.4em;
   }
 }/*# sourceMappingURL=styles.css.map */

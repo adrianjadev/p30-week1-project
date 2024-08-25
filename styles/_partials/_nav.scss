@@ -1,7 +1,9 @@
 .navbar {
+    position: fixed;
     width: 100%;
     background-color: $clr-primary;
     margin: 0;
+    top: 0;
 
     ul {
         @include flexCenter();

@@ -4,8 +4,18 @@
     #contact-table {
         th {
             padding: 1em;
-            color: red;
+            color: $clr-primary;
             text-align: left;
+        }
+    }
+
+    .btn-submit {
+        #submit-btn {
+            font-size: $ff-poppins-ss;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 0.9em;
+            color: $clr-primary;
         }
     }
 
