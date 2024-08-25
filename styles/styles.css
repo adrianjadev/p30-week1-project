@@ -354,7 +354,7 @@ body {
     padding-right: 1.2em;
   }
   .navbar #logo-text {
-    font-size: 1em;
+    font-size: 1.2em;
   }
   #wrapper-about .column-1 #ajdm_picture {
     width: 18rem;
@@ -375,6 +375,9 @@ body {
   }
   #wrapper-grid-experience .job-description {
     font-size: 0.8em;
+  }
+  #wrapper-grid-experience .netsuite-mobile {
+    margin-left: -5em;
   }
   .section-title {
     font-size: 1.4em;

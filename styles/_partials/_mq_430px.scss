@@ -12,7 +12,7 @@
         }
 
         #logo-text {
-            font-size: 1em;
+            font-size: 1.2em;
         }
     }
 
@@ -47,6 +47,10 @@
 
         .job-description {
             font-size: $fz-secondary;
+        }
+
+        .netsuite-mobile {
+            margin-left: -5em;
         }
     }
 
