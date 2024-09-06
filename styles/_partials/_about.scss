@@ -1,13 +1,15 @@
 #wrapper-about {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+
+    display: flex;
     align-items: center;
-    margin: 2em;
-    margin-top: -2em;   
     justify-content: center;
+    margin: 2em;
+    padding-left: 8em;
+    margin-top: -2em;   
     height: 100vh;
 
     .column-1 {
+
         #ajdm_picture {
             width: 25rem;
             height: 35rem;
@@ -16,6 +18,12 @@
     }
 
     .column-2 {
+        display: flex;
+        // align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 5em;
+        padding-right: 5em;
         h1 {
             text-align: left;
         }
