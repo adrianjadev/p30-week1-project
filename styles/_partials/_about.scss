@@ -3,6 +3,9 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     margin: 2em;
+    margin-top: -2em;   
+    justify-content: center;
+    height: 100vh;
 
     .column-1 {
         #ajdm_picture {

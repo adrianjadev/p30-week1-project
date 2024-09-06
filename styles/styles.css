@@ -6,6 +6,10 @@
   margin: 3.5em 0;
 }
 
+#hr {
+  visibility: hidden;
+}
+
 .hr-breaker-no-padding {
   border: 0;
   height: 0.6em;
@@ -91,6 +95,9 @@ body {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   margin: 2em;
+  margin-top: -2em;
+  justify-content: center;
+  height: 100vh;
 }
 #wrapper-about .column-1 #ajdm_picture {
   width: 25rem;
@@ -123,10 +130,18 @@ body {
   max-width: 100%;
 }
 
+#skills {
+  padding-top: 1em;
+}
+
 #wrapper-skills {
+  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: -10em;
 }
 #wrapper-skills .container {
   display: grid;
